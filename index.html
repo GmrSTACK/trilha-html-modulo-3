@@ -9,36 +9,109 @@
 </head>
 <body>
 
-    <div>   
-        <div class="logo">
-            <img src="assets/images/logo.png" width="200"/>
-        </div>
-    </div>
+    <header>   
+        <figure class="logo">
+            <img src="assets/images/logo.png" width="150"/>
+        </figure>
+    </header>
 
     <div class="bar"></div>
 
-    <div class="content">
-        <div class="sidebar">
-            <h2>Título</h2>
+    <main class="content">
+        <nav class="sidebar">
+            <h2 title="Sobre tecnologia">Programação</h2>
             <ul>
-                <li><a href="#">Links</a></li>
+                <li><a href="index.html">Programação</a></li>
+                <li><a href="pages/lang-python.html">Python</a></li>
+                <li><a href="pages/javascript.html">Javascript</a></li>
+                <li><a href="pages/java.html">Java</a></li>
+                <li><a href="pages/ruby.html">Ruby</a></li>
+                <li><a href="pages/typescript.html">Typescript</a></li>
             </ul>
-        </div>
+            <aside>
+                <h2>Outros temas</h2>
+                <ul>
+                    <li><a href="#">História da internet</a></li>
+                    <li><a href="#">História dos paradigmas</a></li>
+                    <li><a href="#">História dos computadores</a></li>
+                    <li><a href="#">Desenvolvimento de jogos</a></li>
+                </ul>
+            </aside>
+        </nav>
 
-        <div class="main">
-            
-        </div>
+        <article>
+            <section id="assunto-1">
+                <h1>Linguagem de programação</h1>
+                <p>A linguagem de programação é um método padronizado, formado por um conjunto de regras sintáticas e semânticas, de implementação de um código fonte - que pode ser compilado e transformado em um programa de computador,[1] ou usado como script interpretado - que informará instruções de processamento ao computador.[2][Nota 1] Permite que um programador especifique precisamente quais os dados que o computador irá atuar, como estes dados serão armazenados ou transmitidos e, quais ações devem ser tomadas de acordo com as circunstâncias. Linguagens de programação podem ser usadas para expressar algoritmos com precisão.</p>
+                <p>O conjunto de palavras (lexemas classificados em tokens), compostos de acordo com essas regras, constituem o código fonte de um software.[3] Esse código fonte é depois traduzido para código de máquina, que é executado pelo microprocessador.[3]</p>
+            </section>
+            <section id="assunto-2">
+                <h2>História</h2>
+                <p>O primeiro trabalho de linguagem de programação foi criado por Ada Lovelace, grande amiga de Charles Babbage.[8] O projeto da primeira calculadora mecânica programável foi idealizado por Charles Babbage[9] que, após gastar fortunas e um longo tempo, não conseguiu concretizar o projeto.[10] A linguagem de programação ADA foi batizada em homenagem a esta primeira programadora.[11]</p>
+                <figure>
+                    <img src="assets/images/Ada_Lovelace_portrait.jpg" alt="Retrato em aquarela de Ada Lovelace, possivelmente feito por Alfred Edward Chalon em torno de 1840.">
+                    <figcaption>Retrato em aquarela de Ada Lovelace, possivelmente feito por Alfred Edward Chalon em torno de 1840.</figcaption>
+                </figure>
+            </section>
+            <section id="assunto-3">
+                <h2>Interpretação e compilação</h2>
+                <p>Uma linguagem de programação pode ser convertida, ou traduzida, em código de máquina por compilação ou interpretada por um processo denominado interpretação. Em ambas ocorre a tradução do código fonte para código de máquina.[30]</p>
+                <p>Se o método utilizado traduz todo o texto do programa (também chamado de código), para só depois executar[Nota 3] o programa, então diz-se que o programa foi compilado e que o mecanismo utilizado para a tradução é um compilador (que por sua vez nada mais é do que um programa).[31] A versão compilada do programa tipicamente é armazenada, de forma que o programa pode ser executado um número indefinido de vezes sem que seja necessária nova compilação, o que compensa o tempo gasto na compilação. Isso acontece com linguagens como Pascal[32] e C.</p>
+                <p>Se o texto do programa é executado à medida que vai sendo traduzido, como em JavaScript, BASIC, Python ou Perl, num processo de tradução de trechos seguidos de sua execução imediata, então diz-se que o programa foi interpretado e que o mecanismo utilizado para a tradução é um interpretador. Programas interpretados são geralmente mais lentos do que os compilados, mas são também geralmente mais flexíveis, já que podem interagir com o ambiente mais facilmente.[33]</p>
+            </section>
+            <section id="assunto-4">
+                <h1>Conceitos</h1>
+                <hr>
+                <h2>Programação estruturada</h2>
+                <p>Programação estruturada é uma forma de programação de computadores que preconiza que todos os programas possíveis podem ser reduzidos a apenas três estruturas: sequência, decisão e repetição.[38] Um dos primeiros a preconizar a programação estruturada foi Haskell B. Curry[39][Nota 5] Tendo, na prática, sido transformada na Programação modular, a Programação estruturada orienta os programadores para a criação de estruturas simples em seus programas, usando as sub-rotinas e as funções. Foi a forma dominante na criação de software entre a programação linear e a programação orientada por objetos.[40] Apesar de ter sido sucedida pela programação orientada por objetos, pode-se dizer que a programação estruturada ainda é marcantemente influente, uma vez que grande parte das pessoas ainda aprendem programação através dela. Porém, a orientação a objetos superou o uso das linguagens estruturadas no mercado.[41]</p>
+            </section>
+            <section id="assunto-5">
+                <h2>Programação modular</h2>
+                <p>Programação modular é uma forma de programação no qual o desenvolvimento das rotinas de programação é feito através de módulos, que são interligados entre si através de uma interface comum.[42] Foi apresentado originalmente pela Information & Systems Institute, Inc. no National Symposium on Modular Programming em 1968, com a liderança de Larry Constantine. Exemplos de linguagens que orientaram seu projeto para este aspecto estão as linguagens Modula-2,[43][44] desenvolvida por Niklaus Wirth e a Modula-3.</p>
+            </section>
+            <section id="assunto-6">
+                <h2>Programação orientada a objetos</h2>
+                <p>Orientação a objetos, também conhecida como Programação Orientada a Objetos (POO), ou ainda em inglês Object-Oriented Programming (OOP) é um paradigma de análise, projeto e programação de sistemas de software baseado na composição e interação entre diversas unidades de software chamadas de objetos. O extensivo uso de objetos, particularmente em conjunção com o mecanismo de herança, caracteriza o estilo de programação orientada a objetos.[46] Em alguns contextos, prefere-se usar modelagem orientada ao objeto (UML), em vez de programação. De fato, o paradigma "orientação a objetos" tem bases conceituais e origem no campo de estudo da cognição, que influenciou a área de inteligência artificial e da lingüística no campo da abstração de conceitos do mundo real. Na qualidade de método de modelagem, é tida como a melhor estratégia, e mais natural, para se eliminar o "gap semântico", dificuldade recorrente no processo de modelar o mundo real, no domínio do problema, em um conjunto de componentes de software que seja o mais fiel na sua representação deste domínio. Facilitaria a comunicação do profissional modelador e do usuário da área alvo, na medida em que a correlação da simbologia e conceitos abstratos do mundo real e da ferramenta de modelagem (conceitos, terminologia, símbolos, grafismo e estratégias) fosse a mais óbvia, natural e exata possível. A análise e projeto orientados a objetos tem como meta identificar o melhor conjunto de objetos para descrever um sistema de software.[47] O funcionamento deste sistema se dá através do relacionamento e troca de mensagens entre estes objetos. Na programação orientada a objetos, implementa-se um conjunto de classes que definem os objetos presentes no sistema de software. Cada classe determina o comportamento (definido nos métodos) e estados possíveis (atributos) de seus objetos, assim como o relacionamento com outros objetos.[42]</p>
+            </section>
+            <section id="assunto-7">
+                <h2>Programação linear e não-linear</h2>
+                <p>Em matemática, problemas de Programação Linear, são problemas cuja função objetivo e as restrições são todas lineares. Caso algumas dessas funções ou restrições sejam não-lineares, é um caso de Programação Não-Linear. [48] Ambas são divisões importantes da área de otimização, exigindo técnicas diferenciadas.</p>
+                <p>Muitos problemas práticos em pesquisa operacional podem ser expressos como problemas de programação linear. Certos casos especiais de programação linear, tais como problemas de network flow e problemas de multicommodity flow são considerados importantes o suficiente para que se tenha gerado muita pesquisa em algoritmos especializados para suas soluções. Vários algoritmos para outros tipos de problemas de otimização funcionam resolvendo problemas de PL como sub-problemas. Historicamente, ideias da programação linear inspiraram muitos dos conceitos centrais de teoria da otimização, tais como dualidade, decomposição, e a importância da convexidade e suas generalizações.</p>
+            </section>
+            <section id="assunto-8">
+                <h2>Outras fontes</h2>
+                <details>
+                    <summary>Fontes</summary>
+                    <ol style="font-style: italic;">
+                        <li>Fischer, Alice E.; Grodzinsky, Frances (1993). The Anatomy of Programming Languages (em inglês). Englewood Cliffs, Nova Jérsia: Prentice Hall. p. 3. 557 páginas.</li>
+                        <li>Dershem, Herbert L.; Jipping, Michael J. (1995). Programming Languages. Structures and models (em inglês) 2ª ed. Boston: PWS Publishing Company. p. 1. 432 páginas.</li>
+                        <li>Aho, Alfred V.; Lam, Monica S.; Sethi, Ravi; Ullman, Jeffrey D (2008). Compiladores. Princípios, técnicas e ferramentas. São Paulo: Addison-Wesley, Pearson. p. 3-5. 634 páginas.</li>
+                        <li>Melo, Ana Cristina Vieira de; Silva, Flávio Soares Corrêa da (2003). Princípios de Linguagens de Programação. São Paulo: Edgard Blücher Ltda. p. 7-11. 211 páginas.</li>
+                        <li>Hannan, James (editor); Oliver, Paul (autor do capítulo) (1982). «6-Program Portability». Computer Programming Management. New York: Van Nostrand Reinhold. p. 89-100. 155 páginas.</li>
+                        <li>Sammet, Jean E (1969). Programming Languages: History and Fundamentals (em inglês). Englewood Cliffs, Nova Jérsia: Prentice Hall. p. 14-16. 785 páginas.</li>
+                    </ol>
+                </details>
+            </section>
+        </article>
 
-        <div class="anchors">
+        <nav class="anchors">
             <h2>Neste Artigo</h2>
             <ul>
-                <li><a href="#">Âncoras</a></li>
+                <li><a href="#assunto-1">Linguagem de programação</a></li>
+                <li><a href="#assunto-2">História</a></li>
+                <li><a href="#assunto-3">Compilação e interpretação</a></li>
+                <li><a href="#assunto-4">Conceitos</a></li>
+                <li><a href="#assunto-5">Programação estruturada</a></li>
+                <li><a href="#assunto-6">Programação modular</a></li>
+                <li><a href="#assunto-7">Programação linear e não-linear</a></li>
+                <li><a href="#assunto-8">Outras fontes</a></li>
             </ul>
-        </div>
+        </nav>
     </div>
 
     <div class="footer">
-
+        <p>Autor: GabrielDev</p>
+        <p>Publicado em <time pubdate>25/01/2025 16:40</time></p>
     </div>
 </body>
 </html>
